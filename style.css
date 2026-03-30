@@ -442,3 +442,45 @@ header {
 	line-height: 24px;
 	color: #645c55;
 }
+
+/* section5 */
+
+.section5 {
+	width: 100%;
+	height: 600px;
+	background-image: url(images/img3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+}
+.section5__container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: end;
+}
+.section5__div {
+	width: 300px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	text-align: start;
+}
+.section5__title {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #403e3b;
+}
+.section5__text {
+	width: 285px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #645c55;
+}
