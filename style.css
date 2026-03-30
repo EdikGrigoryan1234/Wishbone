@@ -367,3 +367,78 @@ header {
 	line-height: 24px;
 	color: #645c55;
 }
+
+/* section4 */
+
+.section4 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section4__container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 120px 100px;
+	gap: 100px;
+}
+.section4__titles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.section4__titles > h3 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #645c55;
+}
+.section4__titles > h1 {
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 40px;
+	color: #1b1a1a;
+}
+.section4__cards {
+	height: 259px;
+	display: flex;
+	gap: 17px;
+}
+.section4__card {
+	width: 379px;
+	height: 259px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+}
+.section4__card__img {
+	width: 117px;
+	height: 102px;
+	object-fit: cover;
+}
+.section4__card__text {
+	text-align: center;
+	gap: 10px;
+}
+.section4__card__text > h3 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #403e3b;
+}
+.section4__card__text > p {
+	width: 292px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #645c55;
+}
